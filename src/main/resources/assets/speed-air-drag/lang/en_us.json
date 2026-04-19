@@ -1,0 +1,7 @@
+{
+  "speedairdrag.speed_air_drag_per_level": "Speed Air Drag Per Level",
+  "gamerule.speedairdrag.speed_air_drag_per_level": "How much each level of Speed reduces air drag.",
+
+  "speedairdrag.slowness_air_drag_per_level": "Slowness Air Drag Per Level",
+  "gamerule.speedairdrag.slowness_air_drag_per_level": "How much each level of Slowness increases air drag."
+}

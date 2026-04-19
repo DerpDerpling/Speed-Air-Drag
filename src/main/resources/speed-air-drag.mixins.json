@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "derp.speedairdrag.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+      "AirDragMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

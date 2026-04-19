@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "speed-air-drag",
+	"version": "${version}",
+	"name": "Speed Air Drag",
+	"description": "Adds a gamerule that allows you to change the air drag related to the level of speed and slowness you have",
+	"authors": [
+		"DerpDerpling"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/DerpDerpling/Speed-Air-Drag"
+	},
+	"license": "The Unlicense",
+	"icon": "assets/speed-air-drag/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"derp.speedairdrag.SpeedAirDrag"
+		]
+	},
+	"mixins": [
+		"speed-air-drag.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": ">=26.2-",
+		"java": ">=25"
+	}
+}
